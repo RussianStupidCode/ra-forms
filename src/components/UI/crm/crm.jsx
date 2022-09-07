@@ -6,6 +6,16 @@ const CRM = () => {
   const [trainingList, setTrainingList] = useState([]);
 
   const onSubmit = (form) => {
+    const findTraining = trainingList.find((training) =>
+      training.date.isSame(form.date)
+    );
+
+    if (findTraining) {
+      findTraining.distance += form.distance;
+      setTrainingList([...trainingList]);
+      return;
+    }
+
     setTrainingList(
       [...trainingList, form].sort((first, second) => first.date - second.date)
     );

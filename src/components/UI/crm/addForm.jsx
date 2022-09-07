@@ -16,7 +16,7 @@ const AddForm = ({ onSubmit }) => {
     event.preventDefault();
 
     const outputForm = {
-      date: moment(form.date, "DD.MM.YY", true),
+      date: moment(form.date, "YYYY-MM-DD", true),
       distance: Number(form.distance),
       id: currentId.current,
     };
@@ -39,13 +39,13 @@ const AddForm = ({ onSubmit }) => {
   return (
     <form className="d-flex justify-content-center align-items-center">
       <div className="d-flex flex-column mx-2">
-        <label>Дата (ДД.ММ.ГГ)</label>
-        <input name="date" onChange={onChange} />
+        <label>Дата (ДД.ММ.ГГГГ)</label>
+        <input type="date" name="date" onChange={onChange} />
       </div>
 
       <div className="d-flex flex-column mx-2">
         <label>Пройдено км</label>
-        <input name="distance" onChange={onChange} />
+        <input type="number" name="distance" onChange={onChange} />
       </div>
 
       <div className="d-flex flex-column mx-2 align-self-end">

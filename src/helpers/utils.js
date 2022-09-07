@@ -12,7 +12,7 @@ function hexToRgb(hex) {
 }
 
 const isValidDate = (dateString) => {
-  return moment(dateString, "DD.MM.YY", true).isValid();
+  return moment(dateString, "YYYY-MM-DD", true).isValid();
 };
 
 const isValidDistance = (distance) => {
