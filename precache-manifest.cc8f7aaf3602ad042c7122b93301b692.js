@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "96d72b46f4733bf222b8",
+    "revision": "72be927d2521a83d8a3e",
     "url": "/ra-forms/static/css/main.21e59710.chunk.css"
   },
   {
-    "revision": "96d72b46f4733bf222b8",
-    "url": "/ra-forms/static/js/main.96d72b46.chunk.js"
+    "revision": "72be927d2521a83d8a3e",
+    "url": "/ra-forms/static/js/main.72be927d.chunk.js"
   },
   {
-    "revision": "0b10f3a5671c79204051",
+    "revision": "17e44430e5655dd32208",
     "url": "/ra-forms/static/css/1.700d34f1.chunk.css"
   },
   {
-    "revision": "0b10f3a5671c79204051",
-    "url": "/ra-forms/static/js/1.0b10f3a5.chunk.js"
+    "revision": "17e44430e5655dd32208",
+    "url": "/ra-forms/static/js/1.17e44430.chunk.js"
   },
   {
     "revision": "e1a66b31d43aa1887f02",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/ra-forms/static/media/bootstrap-icons.be6df3f0.woff"
   },
   {
-    "revision": "0ba879c327b96c7ee9ec5aea433254a7",
+    "revision": "e13e16b66de2c50e46310c427bc57016",
     "url": "/ra-forms/index.html"
   }
 ];
